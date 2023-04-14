@@ -48,7 +48,7 @@ public class TemblorCamara : MonoBehaviour
         originalPosition = transform.position;
         Debug.Log("Llamando shakeCamara");
         // Iniciar el temblor de cámara
-        shakeDuration = 0.5f;
-        shakeIntensity = 0.1f;
+        shakeDuration = 1.5f;
+        shakeIntensity = 0.5f;
     }
 }
